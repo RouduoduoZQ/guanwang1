@@ -1,0 +1,36 @@
+
+
+
+body,div,ul,ol,li,dl,dd,dt,p,a,img,h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+}
+.w{
+    width: 1260px;
+    height: 100%;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;     /*鼠标移动到标签上变成 小手*/
+}
+ul li{
+    list-style: none;
+}
+img{
+    border: 0 none;    /*IE低版本img默认1PX的边框*/
+}
+
+/*清除浮动*/
+.clearfix:after{
+    content: "";
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+    display: block;
+    clear: both;
+}
+.clearfix{
+    zoom: 1;
+}
+
